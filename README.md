@@ -1,3 +1,3 @@
-# Quatlas Website with Three.js and React.js
-![Link](https://quatlas.vercel.app/)
+# Quatlas Aeromodelling in RIT Website
+## [Link 🚀](https://quatlas.vercel.app/)
 
