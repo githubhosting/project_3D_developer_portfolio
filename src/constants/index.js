@@ -116,55 +116,47 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "SAE Aerodesign 2018",
+    company_name: "",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2018",
+    discription:
+      "The team consisted of 14 members from the branches of mechanical and electronics engineering. The aircraft was designed and built from scratch by the team members without any external guidance. The competiton was held at Van Nuys,CA,USA.",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Ranked 7th in the flight rounds, with the first ever successful flight round in the history of the team.",
+      "Total payload lifted - 7.25kgs / 16lbs, highest in Asia for the third round.",
+      "Ranked 10th in the Oral Presentation.",
+      "Bonus points in presentation for innovative fuselage design.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "SAE Aerodesign 2017",
+    company_name: "",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Ranked 12th in the competition.",
+      "Achieved second position in Asia.",
+      "Implemented an elliptical wing for better performance.",
     ],
   },
+];
+const about = [
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "About SAE Aerodesign",
+    discription:
+      "SAE Aerodesign is sponsored by Boeing , Lockheed Martin , ANSYS to name a few.",
+    company_name: "",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "The collegiate level competition, initiated in 1986, is a platform for students around the globe to showcase their abilities to solve engineering challenges within a given framework.",
+      "The competition aims to provide exposure to students and simulate a real life work environment.",
+      "It compresses a typical aircraft development program into one calendar year.",
+      "It exposes participants to the nuances of conceptual design, manufacturing,system integration, testing and sell of through demonstration.",
     ],
   },
 ];
@@ -262,4 +254,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, about };

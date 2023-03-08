@@ -42,7 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
+          <img src={logo} alt="logo" className="w-20 h-auto object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Quatlas &nbsp;
             <span className="sm:block hidden"> | Aeromodelling in RIT</span>
