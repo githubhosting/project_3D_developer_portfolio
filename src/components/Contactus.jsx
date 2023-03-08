@@ -193,4 +193,4 @@ const Contactus = () => {
   );
 };
 
-export default SectionWrapper(Contactus, "");
+export default SectionWrapper(Contactus, "contactus");
